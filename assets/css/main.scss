@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+@charset "utf-8";
+
+$serif-font-family: "Noto Sans KR", serif;
+$sans-serif-font-family: "Noto Sans KR", sans-serif;
+$monospace-font-family: Consolas;
+
+@import "so-simple";

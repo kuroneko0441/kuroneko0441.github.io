@@ -18,21 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: 새벽빛 테크로그
+email: kuroneko0441@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  넓고 얕게 아는척하며 글쓰기.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  kuroneko0441
 
 # Build settings
-theme: minima
+theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +54,40 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
   - Dockerfile
+
+permalink: /:year/:month/:day/:title/
+
+# so-simple-theme
+locale: ko-KR
+date_format: "%Y-%m-%d"
+
+author:
+  name: kuroneko0441
+  picture: /images/profile.png
+  links: false
+
+footer_links:
+  - title: GitHub
+    url: https://github.com/kuroneko0441
+    icon: fab fa-github-square
+  - title: Linkedin
+    url: https://www.linkedin.com/in/joonyoung-lee-7930731b1/
+    icon: fab fa-linkedin
+  - title: Instagram
+    url: https://instagram.com/kuroneko0441
+    icon: fab fa-instagram
+  - title: Feed
+    url: feed.xml
+    icon: fas fa-rss-square
+
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
+
+search_full_content: true
+
+google_fonts:
+  - name: "Noto Sans KR"
+    weights: "400,400i,700,700i"

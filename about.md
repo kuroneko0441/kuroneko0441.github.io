@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="/images/profile.png" style="width: 300px; height: 300px" title="Profile Image">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- 2022.08 ~    현재: 애니포인트미디어(주)
+- 2018.11 ~ 2022.08: (주)이파피루스
+- 2015.03 ~    현재: 동국대학교 컴퓨터공학전공 학사
+- 1996.08 출생
