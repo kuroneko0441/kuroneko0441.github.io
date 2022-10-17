@@ -60,6 +60,7 @@ permalink: /:year/:month/:day/:title/
 # so-simple-theme
 locale: ko-KR
 date_format: "%Y-%m-%d"
+logo: /images/title.png
 
 author:
   name: kuroneko0441
