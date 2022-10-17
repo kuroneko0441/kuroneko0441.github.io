@@ -23,7 +23,7 @@ email: kuroneko0441@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   넓고 얕게 아는척하며 글쓰기.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kuroneko0441.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kuroneko0441
 
 # Build settings
